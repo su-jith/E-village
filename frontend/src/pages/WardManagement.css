@@ -1,0 +1,136 @@
+/* Navigation Bar */
+.nav-bar {
+  background-color: #2f855a;
+  padding: 10px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.nav-bar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Ward Management Container */
+.ward-management-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #f9fafb;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ward-management-container h2 {
+  text-align: center;
+  color: #2f855a;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.ward-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.form-group input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  padding: 12px;
+  background-color: #2f855a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #276749;
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #e53e3e;
+}
+
+/* Table Styles */
+.ward-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.ward-table th,
+.ward-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.ward-table th {
+  background-color: #2f855a;
+  color: #fff;
+}
+
+.ward-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Action Buttons */
+.action-btn {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background-color: #2f855a;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: #276749;
+}
+
+.action-btn.delete {
+  background-color: #e53e3e;
+}
+
+.action-btn.delete:hover {
+  background-color: #c53030;
+}
